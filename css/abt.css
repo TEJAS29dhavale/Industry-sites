@@ -1,0 +1,603 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Mulish", sans-serif;
+  }
+  .header1{
+    
+    height: fit-content;
+    background-color:#02a6a1;
+    display: flex;
+    font-family:sans-serif;
+    justify-content: space-between;
+    align-items: center;
+    -ms-layout-grid:inherit;
+}
+.section1{
+  display: flex;
+  height: 10rem;
+  width:100%;
+  background-image: url(Merrick-Blog-FullSource-840x460-1.webp);background-repeat: no-repeat;
+  background-size: 15rem;
+  background-position: center;
+  background-position-y: 2rem;
+  
+}
+#headline{
+   color: #fae7f4;
+    font-size: 1.5rem;
+    font-weight:400;
+    justify-content: left;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 2rem;
+}
+.img1{
+  height: 70%;
+}
+.a1{
+  float: right;
+  margin: 20px;
+}
+.a2{
+  float: right;
+  margin: 10px;
+}
+.a3{
+  margin-left: 50%; 
+}
+.wh3{
+  font-size: larger;
+}
+.wh4{
+  font-size: larger;
+}
+.wh1{
+  width: 40px;
+  height: 40px;
+}
+.wh2{
+  height: 40px;
+  width: 40px;
+}
+.mobile-navbar-btn{display: none;}
+.mobile-nav-icon{display: none;}
+
+.navbarlist {
+    display: flex;
+    gap: 3.5rem;
+    list-style: none;
+    padding-right: 150px;
+    align-items: center;
+  }
+.navbar-link:link,
+.navbar-link:visited {
+    padding-right: 0px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 400;
+    color: #ffffff;
+    transition: all 0.3s;
+  }
+  .navbar-link:hover,
+  .navbar-link:active {
+    color: #7d07cb;}
+
+    /*divison*/
+    .he{
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color:#029ea6;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+      margin-left: 4rem;
+      
+      font-size: 50px;
+    }
+    .para{
+      padding: 3rem;
+      font-size: 25px;
+      margin-left: 2rem;
+      margin-right: 2rem;
+      text-align: justify;
+      line-height: 35px;
+      background-color: #fae7f4;
+    }
+    .note{
+      padding: 3rem;
+      font-size: 17px;
+      margin-left: 2rem;
+      margin-right: 2rem;
+      background-color: #fae7f4;
+    }
+    .aoui{
+      background-image: url(James-Burgess-Focus31-Team-Meeting-Accountability.jpg);background-repeat: no-repeat;
+      background-size:cover ; 
+    margin: 0rem; 
+    padding: 4rem;
+    }
+   
+    
+    /*footer*/
+.bk{
+    background-color: black;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 100px;
+    padding-bottom: 1px;
+    height: fit-content;
+  
+  }
+  .wp-block-column{
+  
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  margin-left: auto;
+  margin-right: 2rem;
+  }
+  
+  .wp-block-colnwide{
+    display: flex;
+    padding-left: 10px;
+    padding-bottom: 80px;
+    padding-right: 10px;
+  }
+  .margin-top-halfhas-text-color{
+    margin-left: 0px;
+    justify-content: space-between;
+    color:#ffffff;
+    font-size:17px;
+    line-height:1.75;
+  }
+  .wh{
+    color:#ffffff;
+    margin-bottom: 0.4rem;
+  }
+  .wp-block-headingmargin-bottom-halfhas-background-colorhas-text-color{
+    color:#ffffff; 
+    margin-top:0px;
+    margin-right:20px;
+    margin-bottom:20px;
+    margin-left:0px;
+    font-size:22px;
+    line-height:1.6;
+  }
+  .footer-copyrighttext-centerpy-3{
+    background-color: #fdfdfd;
+    color: #828282;
+    border-radius: 10px;
+    height: 1rem;
+    text-align: center;
+    padding: 1.5rem;
+    font-size: large;
+   
+  }
+
+    @media  (max-width: 576px){
+        /*Header css*/
+        * {
+          margin: 0;
+          padding: 0;
+          font-family: "Mulish", sans-serif;
+        }
+        .section1{
+         
+          height: 10rem;
+          width: 100%;
+          background-image: url(Merrick-Blog-FullSource-840x460-1.webp);background-repeat: no-repeat;
+          background-size: 60%;
+          background-position: center;
+          background-position-y: 2.5rem;
+          
+        }
+      
+      .img1{
+        height: 3rem;
+      
+      }
+      .a1{
+        float: right;
+        margin: 0px;
+      }
+      .a2{
+        float: right;
+        margin: 0px;
+      }
+      .a3{
+        margin-left: 0rem;
+        
+      }
+      .wh3{
+        font-size:small;
+      }
+      .wh4{
+        font-size: small;
+      }
+      .wh1{
+        width: 20px;
+        height: 20px;
+      }
+      .wh2{
+        height: 20px;
+        width: 20px;
+      }
+        /*navbar css*/
+        .header1{
+          padding-left: 0rem;
+          width:cover;
+          height: 4rem;
+          background-color:#00bb9c;
+          display: flex;
+          font-family:sans-serif;
+          justify-content: space-between;
+          align-items: center;
+          -ms-layout-grid:inherit;
+         
+      }
+      #headline{
+         display:flex;
+         font-size:medium;
+         
+      }
+      .navbar{
+        width: 100%;
+          height: 100vh;
+          background: #e7f5ff;
+          position: absolute;
+          top: 0;
+          left: 0;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          transform: translateX(100%);
+          transition: all 0.5s linear;
+          opacity: 0;
+          visibility: hidden;
+          pointer-events: none;
+      }
+
+      .navbarlist {
+        display: grid;
+        gap: 1.3rem;
+        list-style: none;
+        padding: 1rem;
+        align-items: center;
+      }
+      .navbar-link:link,
+      .navbar-link:visited {
+        padding: 0px;
+        display: inline-block;
+        text-decoration: none;
+        font-size: 1.5rem;
+        font-weight: 400;
+        color: #212529;
+        transition: all 0.3s;
+      }.navbar-link:hover,
+      .navbar-link:active {
+        color: #d13ce8;}
+      .mg{
+        display: none;
+      }
+      
+.mobile-navbar-btn {
+  /* by default for normal screen we want to hide  */
+  display: flex;
+ margin-right: 1rem;
+  z-index: 99999;
+    border: 3px solid #00595f;
+    color: #212529;
+}
+.navbar .navbar-lists .navbar-link:link,
+  .navbar .navbar-lists .navbar-link:visited {
+    color: #212529;
+    font-size: 3.2rem;
+  }
+.mobile-nav-icon {
+  display: block;
+  width: 2rem;
+  height: 2rem;
+  color: #00595f;
+}
+
+.mobile-nav-icon[name="close-outline"] {
+  display: none;
+}
+.active .navbar {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transform: translateX(0);
+  z-index: 9999;
+}
+
+.active .mobile-navbar-btn .mobile-nav-icon[name="close-outline"] {
+  display: block;
+}
+
+.active .mobile-navbar-btn .mobile-nav-icon[name="menu-outline"] {
+  display: none;
+}
+      /*divison*/
+
+      .he{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:#029ea6;
+        margin-left: 3rem;
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+        margin-right: 2rem;
+        font-size: 30px;
+      }
+      .para{
+        padding: 1rem;
+        font-size: 15px;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        line-height: 34px;
+        text-align:justify;
+      }
+      .note{
+        padding: 1rem;
+        font-size: 15px;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        padding: 0.5rem;
+        line-height: 34px;
+      }
+      
+      .aoui{
+       padding: 0.4rem;
+        margin: 0rem; 
+        }
+       
+
+    /*footer*/
+      
+.bk{
+    background-color: black;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 100px;
+    padding-bottom: 1px;
+    height: fit-content;
+  
+  }
+  .wp-block-column{
+  
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  margin-left: 0rem;
+  margin-right: 0rem;
+  }
+  
+  .wp-block-colnwide{
+    display: grid;
+    padding-left: 0px;
+    padding-bottom: 80px;
+    padding-right: 10px;
+  }
+  .margin-top-halfhas-text-color{
+    margin-left: 0px;
+    justify-content: space-between;
+    color:#ffffff;
+    font-size:17px;
+    line-height:1.75;
+  }
+  .wh{
+    color:#ffffff;
+    margin-bottom: 0.4rem;
+  }
+  .wp-block-headingmargin-bottom-halfhas-background-colorhas-text-color{
+    color:#ffffff; 
+    margin-top:0px;
+    margin-right:0px;
+    margin-bottom:20px;
+    margin-left:0px;
+    font-size:22px;
+    line-height:1.6;
+  }
+  .footer-copyrighttext-centerpy-3{
+    background-color: #fdfdfd;
+    color: #828282;
+    border-radius: 10px;
+    height: 1.8rem;
+    text-align: center;
+    padding: 0.9rem;
+    font-size: large;
+    margin-bottom: 0.5rem;
+   
+  }
+    }
+    @media (min-width:568px ) and (max-width:1200px){
+        /*Header css*/
+        * {
+          margin: 0;
+          padding: 0;
+          font-family: "Mulish", sans-serif;
+        }
+        .section1{
+         
+          height: 10rem;
+          width: 100%;
+          background-image: url(Merrick-Blog-FullSource-840x460-1.webp);background-repeat: no-repeat;
+          background-size: 35%;
+          background-position: center;
+          background-position-y: 2.5rem;
+          
+        }
+      
+      .img1{
+        height: 6rem;
+      
+      }
+      .a1{
+        float: left;
+        margin: none;
+      }
+      .a2{
+        float: left;
+        margin: none;
+      }
+      .a3{
+        margin-left:10px;
+        
+       display: flex; 
+      }
+      .wh3{
+        font-size:large;
+      }
+      .wh4{
+        font-size: large;
+      }
+      .wh1{
+        width: 30px;
+        height: 30px;
+      }
+      .wh2{
+        height: 30px;
+        width: 30px;
+      }
+        /*navbar css*/
+        .header1{
+          padding-left: 2rem;
+          width:cover;
+          height: 4rem;
+          background-color:#00bb9c;
+          display: flex;
+          font-family:sans-serif;
+          justify-content: space-between;
+          align-items: center;
+          -ms-layout-grid:inherit;
+         
+      }
+      #headline{
+         display:flex;
+         font-size:medium;
+         
+      }
+      .navbar{
+        width: 100%;
+        height: 100vh;
+        background: #e7f5ff;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: translateX(100%);
+        transition: all 0.5s linear;
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+    }
+      .navbarlist {
+        display: flex;
+        gap: 2rem;
+        list-style: none;
+        padding: 1.5rem;
+        align-items: center;
+      }
+      .navbar-link:link,
+      .navbar-link:visited {
+        padding: 0px;
+        display: inline-block;
+        text-decoration: none;
+        font-size: 1rem;
+        font-weight: 400;
+        color: #ffffff;
+        transition: all 0.3s;
+      }.navbar-link:hover,
+      .navbar-link:active {
+        color: #d13ce8;}
+      .mg{
+        display: none;
+      }
+
+      .he{
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:#029ea6;
+        margin-left: auto;
+        margin-top: 3rem;
+        margin-bottom: 1rem;
+        margin-right: auto;
+        font-size: 30px;
+        text-align: center;
+      }
+      .para{
+        padding: 1rem;
+        font-size: 18px;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        line-height: 34px;
+        text-align:justify;
+      }
+      .note{
+        padding: 1rem;
+        font-size: 15px;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+        margin-top: 0.4rem;
+        padding: 0.5rem;
+        line-height: 34px;
+      }
+      
+      .aoui{
+       padding: 2.4rem;
+        margin: 0rem; 
+        }
+      /*footer*/
+
+
+      .bk{
+        background-color: black;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 100px;
+       padding-bottom: 2rem;
+       
+       
+
+      }
+      .wp-block-column{
+      margin-bottom: 0.4rem;
+      margin-top: 0rem;
+      margin-bottom: 0rem;
+      margin-left: 0rem;
+      margin-right:0rem;
+      padding: 0.7rem;
+      }
+
+      .wp-block-colnwide{
+        display: flex;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        padding-right: 10px;
+        
+      }
+      
+      .margin-top-halfhas-text-color{
+        margin-left: 0px;
+        margin-top: 10px;
+        justify-content: space-between;
+        color:#ffffff;
+        font-size:20px;
+        line-height:1.75;
+      }
+      .wh{
+        color:#ffffff;
+        margin: 0.1rem;
+    }
+      .wp-block-headingmargin-bottom-halfhas-background-colorhas-text-color{
+        color:#ffffff; 
+        margin-top:0px;
+        margin-right:0px;
+        margin-bottom:0px;
+        margin-left:0px;
+        font-size:24px;
+        line-height:1.6;
+      }
+
+      
+
+}
